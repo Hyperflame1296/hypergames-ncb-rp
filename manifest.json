@@ -4,7 +4,7 @@
         "name": "rp - hypergames ncb",
         "description": "tensive decided to redo the entirety of hypergames. again.",
         "uuid": "2210b699-e1ad-4661-ba07-f4e8ad236aaa",
-        "version": [ 0, 1, 2 ],
+        "version": [ 0, 1, 3 ],
         "min_engine_version": [ 1, 21, 90 ]
     },
     "modules": [
@@ -12,7 +12,7 @@
             "description": "rp0.1.0",
             "type": "resources",
             "uuid": "03a4b70e-b2e7-4914-98ec-a69c98145e05",
-            "version": [ 0, 1, 2 ]
+            "version": [ 0, 1, 3 ]
         }
     ],
     "metadata": {

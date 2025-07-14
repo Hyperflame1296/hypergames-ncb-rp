@@ -1,45 +1,327 @@
 {
-    "format_version": "1.20.81",
+    "format_version": "1.20.20",
     "sound_definitions": {
         "ambient.weather.rain": {
             "__use_legacy_max_distance": "true",
             "category": "weather",
             "max_distance": null,
-            "min_distance": 100.0,
+            "min_distance": 100,
             "sounds": [
                 {
                     "load_on_low_memory": true,
                     "name": "sounds/ambient/weather/rain1",
-                    "volume": 0.040
+                    "volume": 0.02
                 },
                 {
                     "name": "sounds/ambient/weather/rain2",
-                    "volume": 0.040
+                    "volume": 0.02
                 },
                 {
                     "name": "sounds/ambient/weather/rain3",
-                    "volume": 0.040
+                    "volume": 0.02
                 },
                 {
                     "name": "sounds/ambient/weather/rain4",
-                    "volume": 0.040
+                    "volume": 0.02
                 },
                 {
                     "name": "sounds/ambient/weather/rain5",
-                    "volume": 0.040
+                    "volume": 0.02
                 },
                 {
                     "name": "sounds/ambient/weather/rain6",
-                    "volume": 0.040
+                    "volume": 0.02
                 },
                 {
                     "name": "sounds/ambient/weather/rain7",
-                    "volume": 0.040
+                    "volume": 0.02
                 },
                 {
                     "name": "sounds/ambient/weather/rain8",
-                    "volume": 0.040
+                    "volume": 0.02
                 }
+            ]
+        },
+        "ambient.weather.thunder": {
+            "__use_legacy_max_distance": "true",
+            "category": "weather",
+            "max_distance": null,
+            "min_distance": 100,
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/ambient/weather/thunder1"
+                },
+                "sounds/ambient/weather/thunder2",
+                "sounds/ambient/weather/thunder3"
+            ]
+        },
+        "note.banjo": {
+            "__use_legacy_max_distance": "true",
+            "category": "record",
+            "max_distance": 48,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/note/banjo"
+                }
+            ]
+        },
+        "note.bass": {
+            "__use_legacy_max_distance": "true",
+            "category": "record",
+            "max_distance": 48,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/note/bass"
+                }
+            ]
+        },
+        "note.bassattack": {
+            "__use_legacy_max_distance": "true",
+            "category": "record",
+            "max_distance": 48,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/note/bassattack"
+                }
+            ]
+        },
+        "note.bd": {
+            "__use_legacy_max_distance": "true",
+            "category": "record",
+            "max_distance": 48,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/note/bd"
+                }
+            ]
+        },
+        "note.bell": {
+            "__use_legacy_max_distance": "true",
+            "category": "record",
+            "max_distance": 48,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/note/bell"
+                }
+            ]
+        },
+        "note.bit": {
+            "__use_legacy_max_distance": "true",
+            "category": "record",
+            "max_distance": 48,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/note/bit"
+                }
+            ]
+        },
+        "note.chime": {
+            "__use_legacy_max_distance": "true",
+            "category": "record",
+            "max_distance": 48,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/note/icechime"
+                }
+            ]
+        },
+        "note.cow_bell": {
+            "__use_legacy_max_distance": "true",
+            "category": "record",
+            "max_distance": 48,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/note/cow_bell"
+                }
+            ]
+        },
+        "note.didgeridoo": {
+            "__use_legacy_max_distance": "true",
+            "category": "record",
+            "max_distance": 48,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/note/didgeridoo"
+                }
+            ]
+        },
+        "note.flute": {
+            "__use_legacy_max_distance": "true",
+            "category": "record",
+            "max_distance": 48,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/note/flute"
+                }
+            ]
+        },
+        "note.guitar": {
+            "__use_legacy_max_distance": "true",
+            "category": "record",
+            "max_distance": 48,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/note/guitar"
+                }
+            ]
+        },
+        "note.harp": {
+            "__use_legacy_max_distance": "true",
+            "category": "record",
+            "max_distance": 48,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/note/harp"
+                }
+            ]
+        },
+        "note.hat": {
+            "__use_legacy_max_distance": "true",
+            "category": "record",
+            "max_distance": 48,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/note/hat"
+                }
+            ]
+        },
+        "note.iron_xylophone": {
+            "__use_legacy_max_distance": "true",
+            "category": "record",
+            "max_distance": 48,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/note/iron_xylophone"
+                }
+            ]
+        },
+        "note.pling": {
+            "__use_legacy_max_distance": "true",
+            "category": "record",
+            "max_distance": 48,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/note/pling"
+                }
+            ]
+        },
+        "note.snare": {
+            "__use_legacy_max_distance": "true",
+            "category": "record",
+            "max_distance": 48,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/note/snare"
+                }
+            ]
+        },
+        "note.xylophone": {
+            "__use_legacy_max_distance": "true",
+            "category": "record",
+            "max_distance": 48,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/note/xylobone"
+                }
+            ]
+        },
+        "record.cat" : {
+            "__use_legacy_max_distance" : "true",
+            "category" : "record",
+            "max_distance": 64.0,
+            "min_distance": null,
+            "sounds" : [
+                {
+                    "load_on_low_memory" : true,
+                    "name": "sounds/music/game/records/cat",
+                    "stream": true,
+                    "volume": 0.50
+                }
+            ]
+        },
+        "record.dog" : {
+            "__use_legacy_max_distance" : "true",
+            "category" : "record",
+            "max_distance": 64.0,
+            "min_distance": null,
+            "sounds" : [
+                {
+                    "load_on_low_memory" : true,
+                    "name": "sounds/music/game/records/dog",
+                    "stream": true,
+                    "volume": 0.50
+                }
+            ]
+        },
+        "bettersounds.boat.paddle_land": {
+            "__use_legacy_max_distance": "true",
+            "category": "player",
+            "max_distance": null,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/mob/boat/paddle_land1"
+                },
+                "sounds/mob/boat/paddle_land2",
+                "sounds/mob/boat/paddle_land3",
+                "sounds/mob/boat/paddle_land4",
+                "sounds/mob/boat/paddle_land5",
+                "sounds/mob/boat/paddle_land6"
+            ]
+        },
+        "bettersounds.boat.paddle_water": {
+            "__use_legacy_max_distance": "true",
+            "category": "player",
+            "max_distance": null,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/mob/boat/paddle_water1"
+                },
+                "sounds/mob/boat/paddle_water2",
+                "sounds/mob/boat/paddle_water3",
+                "sounds/mob/boat/paddle_water4",
+                "sounds/mob/boat/paddle_water5",
+                "sounds/mob/boat/paddle_water6",
+                "sounds/mob/boat/paddle_water7",
+                "sounds/mob/boat/paddle_water8"
             ]
         }
     }
