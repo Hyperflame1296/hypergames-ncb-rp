@@ -1,0 +1,46 @@
+{
+    "format_version": "1.20.81",
+    "sound_definitions": {
+        "ambient.weather.rain": {
+            "__use_legacy_max_distance": "true",
+            "category": "weather",
+            "max_distance": null,
+            "min_distance": 100.0,
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/ambient/weather/rain1",
+                    "volume": 0.040
+                },
+                {
+                    "name": "sounds/ambient/weather/rain2",
+                    "volume": 0.040
+                },
+                {
+                    "name": "sounds/ambient/weather/rain3",
+                    "volume": 0.040
+                },
+                {
+                    "name": "sounds/ambient/weather/rain4",
+                    "volume": 0.040
+                },
+                {
+                    "name": "sounds/ambient/weather/rain5",
+                    "volume": 0.040
+                },
+                {
+                    "name": "sounds/ambient/weather/rain6",
+                    "volume": 0.040
+                },
+                {
+                    "name": "sounds/ambient/weather/rain7",
+                    "volume": 0.040
+                },
+                {
+                    "name": "sounds/ambient/weather/rain8",
+                    "volume": 0.040
+                }
+            ]
+        }
+    }
+}
